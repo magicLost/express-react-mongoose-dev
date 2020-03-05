@@ -1,0 +1,96 @@
+.ListSvg {
+  width: 95%;
+
+  margin: auto;
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  .Title {
+    text-align: center;
+
+    padding: 10px 0;
+
+    text-transform: uppercase;
+    font-weight: bolder;
+  }
+
+  .List {
+    height: 100%;
+
+    list-style: none;
+    display: flex;
+
+    justify-content: space-around;
+    align-items: center;
+
+    padding-top: 40px;
+    padding-bottom: 30px;
+
+    background-color: #fff;
+
+    box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+      0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+
+    .Item {
+      .Svg--Social {
+        width: 35px;
+        height: 35px;
+      }
+
+      .Svg--Clients {
+        width: 70px;
+        height: 35px;
+      }
+    }
+  }
+}
+@media (min-width: 700px) {
+  .ListSvg {
+    width: 85%;
+
+    //margin: auto;
+
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+    .List {
+      .Item {
+        .Svg--Social {
+          width: 40px;
+          height: 40px;
+        }
+
+        .Svg--Clients {
+          width: 80px;
+          height: 40px;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 1000px) {
+  .ListSvg {
+    width: 70%;
+
+    //margin: auto;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    .List {
+      .Item {
+        .Svg--Social {
+          width: 50px;
+          height: 50px;
+        }
+
+        .Svg--Clients {
+          width: 100px;
+          height: 50px;
+        }
+      }
+    }
+  }
+}
